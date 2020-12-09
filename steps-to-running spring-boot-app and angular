@@ -1,0 +1,10 @@
+To run the Spring Boot Rest Api App
+
+1.copy the spring-boot-ecommerce-0.0.1-SNAPSHOT.jar file to your desire location
+2. Go to the folder
+3. run the command java -jar spring-boot-ecommerce-0.0.1-SNAPSHOT.jar
+4. test the api(http://localhost:9090/api/products)
+5. Run Angular app
+6. In the service class change the base url port from 8080 to 9090(I have intentionaly made this changes because in most of the cases, 8080 port is pre occupied)
+7. Run the angular app in the 4200 port
+
